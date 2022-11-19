@@ -5,7 +5,7 @@ public class TwoPoints {
     public static void computePointofIntersection(Integer currPosOfX, Integer currPosOfY){
         while(!currPosOfY.equals(currPosOfX)) {
             currPosOfX = (currPosOfX + 2 ) % 12;
-            currPosOfY =  (currPosOfY + 1) % 12;
+            currPosOfY = (currPosOfY + 1) % 12;
         }
         System.out.println("Pos at which X and Y will meet will be " + (currPosOfX + 1));
     }
